@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sentiment-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Khadidja Manaa <khadidja.manaa@domain.com>"]
+readme = "README.md"
+packages = [{include = "sentiment_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nltk = "^3.8.1"
+stop-words = "^2018.7.23"
+pandas = "^2.0.2"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+torch = "^2.0.1"
+transformers = "^4.29.2"
+pytest = "^7.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
