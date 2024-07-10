@@ -1,7 +1,7 @@
 # Sentiment analysis of English and German Amazon product reviews
 
-Analyzing and comparing sentiment analysis scores in the two languages using two modules, which are a 
-language specific module, and a multi-lingual module.
+This is a small scale student project on analyzing and comparing sentiment analysis scores in the two languages using two modules, which are 
+language specific modules, and a multi-lingual module.
 
 
 # Introduction
@@ -22,7 +22,7 @@ As for the German reviews, the following BERT modules were used:
 
 2. "oliverguhr/german-sentiment-bert"
 
-In addition to the preprocessing and tokenization of each module, I developed my own preprocessing script in order to add the review_title contents to the review_body, for more data to analyze, alongside other adjustments for removal of emojis. 
+In addition to the preprocessing and tokenization of each module, a preprocessing script was developed in order to add the review_title contents to the review_body, for more data to analyze, alongside other adjustments for removal of emojis. 
 
 
 # Commandline Examples
@@ -68,7 +68,6 @@ This argument expects at least one name, and can be extended to two in order to 
 
 2. The sentiment scores had to be normalized, as the different modules had different scales. 
 
-3. I had a lot of fun creating this!
 
 
 # Links to Modules 
