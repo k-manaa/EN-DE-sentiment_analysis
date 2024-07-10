@@ -1,5 +1,4 @@
 # Student name: Khadidja Manaa
-# Matriculation number: 21-738-182
 
 
 # Sentiment analysis of English and German Amazon product reviews
